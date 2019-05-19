@@ -46,7 +46,16 @@ public class TitleBucket implements BucketInterface {
                             return;
                         }//Exact same song???
                         else{
-                            return;
+                            //check if its a re-release or a different format
+                            if(itemToAdd.getLength().equals(byFirstLetter.get(j).getLength())
+                            && itemToAdd.getAlbum().equals(byFirstLetter.get(j).getAlbum())
+                            && itemToAdd.getYear() == byFirstLetter.get(j).getYear()
+                            && itemToAdd.getAdditionalInfo().equals(byFirstLetter.get(j).getAdditionalInfo())) {
+                                return;
+                            }
+                            else {
+                                byFirstLetter.add(j, itemToAdd);
+                            }
                         }
                     }
                 }
