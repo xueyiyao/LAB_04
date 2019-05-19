@@ -52,7 +52,8 @@ public class ArtistBucket implements BucketInterface {
                                 return;
                             }
                             else {
-                                byFirstLetter.add(j, itemToAdd);
+                                byFirstLetter.add(j+1, itemToAdd);
+				return;
                             }
                         }
                     }

@@ -21,6 +21,9 @@ public class Lab04 {
             DigitalTrack d8 = new DigitalTrack("Forever", "length", "Drake", "album", 8, "bitRate");
             DigitalTrack d9 = new DigitalTrack("Forever", "length", "Chris Brown", "album", 9, "bitRate");
 
+	    VinylTrack d10 = new VinylTrack("Bohemian Rhapsody", "5 minutes 55 seconds", "Queen", "A Night at the Opera", 1975, "RPM");
+	    DigitalTrack d11  = new DigitalTrack("Bohemian Rhapsody", "5 minutes 54 secods", "Queen", "A Night at the Opera", 2011, "bitRate");
+
             ArtistBucket ab = new ArtistBucket();
             TitleBucket tb = new TitleBucket();
 
@@ -33,10 +36,12 @@ public class Lab04 {
             ab.addItem(d7);
             ab.addItem(d8);
             ab.addItem(d9);
+            ab.addItem(d10);
+            ab.addItem(d11);
 
             for(int i = 0; i < ab.getBuckets().size(); i++){
                 for (int j = 0; j < ab.getBuckets().get(i).size(); j++){
-                    System.out.println(ab.getBuckets().get(i).get(j).getArtist() + " - " + ab.getBuckets().get(i).get(j).getTitle());
+                    System.out.println(ab.getBuckets().get(i).get(j).getArtist() + " - " + ab.getBuckets().get(i).get(j).getTitle() + " - " + ab.getBuckets().get(i).get(j).getYear());
                 }
             }
 
@@ -51,11 +56,13 @@ public class Lab04 {
             tb.addItem(d7);
             tb.addItem(d8);
             tb.addItem(d9);
+            tb.addItem(d10);
+            tb.addItem(d11);
 
 
             for(int i = 0; i < tb.getBuckets().size(); i++){
                 for (int j = 0; j < tb.getBuckets().get(i).size(); j++){
-                    System.out.println(tb.getBuckets().get(i).get(j).getTitle() + " - " + tb.getBuckets().get(i).get(j).getArtist());
+                    System.out.println(tb.getBuckets().get(i).get(j).getTitle() + " - " + tb.getBuckets().get(i).get(j).getArtist() + " - " + tb.getBuckets().get(i).get(j).getYear());
                 }
             }
         }
