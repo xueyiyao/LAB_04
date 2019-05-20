@@ -1,0 +1,11 @@
+Trap Queen;1:20;Fetty Wap;album;5;D;bitRate
+I'm the One;2:45;DJ Khaled;album;6;D;bitRate
+Take Care;3:45;Drake;album;1;D;bitRate
+The Hills;2:30;The Weeknd;album;2;D;bitRate
+No Role Models;1:59;J. Cole;album";3;D;"bitRate"
+Best Part;2:35;Daniel Caesar;album";4;D;"bitRate"   
+Hotline Bling;4:31;Drake;album";7;D;"bitRate"
+Forever;2:53;Drake;album";8;D;"bitRate"
+Forever;1:34;Chris Brown;album";9;D;"bitRate"
+Bohemian Rhapsody;5:55;Queen;A Night at the Opera";1975;V;"RPM"
+Bohemian Rhapsody;5:54;Queen;A Night at the Opera";2011;D;"bitRate"
