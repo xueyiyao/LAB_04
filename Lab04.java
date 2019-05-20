@@ -3,11 +3,16 @@
 
 public class Lab04 {
     public static void main(String[] args){
-        Boolean testing = true;
+        Boolean testing = false;
 
         if(testing == false){
             MusicManager mm = new MusicManager();
+            try{
             mm.start();
+            }
+            catch (Exception e){
+                System.out.println("Caught Exception: " + e);
+            }
         }
         else {
         //just some code to test if classes work;
