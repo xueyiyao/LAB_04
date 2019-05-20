@@ -1,0 +1,12 @@
+Title                                   Artist                                  Album                                   Length Year ADDITIONAL_INFORMATION                  
+Best Part                               Daniel Caesar                           album                                   2:35   4 Digital BitRate: bitRate                
+Bohemian Rhapsody                       Queen                                   A Night at the Opera                    5:55   1975 Vinyl RPM: RPM                          
+Bohemian Rhapsody                       Queen                                   A Night at the Opera                    5:54   2011 Digital BitRate: bitRate                
+Forever                                 Chris Brown                             album                                   1:34   9 Digital BitRate: bitRate                
+Forever                                 Drake                                   album                                   2:54   8 Digital BitRate: bitRate                
+Hotline Bling                           Drake                                   album                                   4:31   7 Digital BitRate: bitRate                
+I'm the One                             DJ Khaled                               album                                   2:45   6 Digital BitRate: bitRate                
+No Role Models                          J. Cole                                 album                                   1:59   3 Digital BitRate: bitRate                
+Take Care                               Drake                                   album                                   3:45   1 Digital BitRate: bitRate                
+The Hills                               The Weeknd                              album                                   2:30   2 Digital BitRate: bitRate                
+Trap Queen                              Fetty Wap                               album                                   1:20   5 Digital BitRate: bitRate                

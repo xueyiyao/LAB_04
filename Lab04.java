@@ -26,8 +26,8 @@ public class Lab04 {
             DigitalTrack d8 = new DigitalTrack("Forever", "length", "Drake", "album", 8, "bitRate");
             DigitalTrack d9 = new DigitalTrack("Forever", "length", "Chris Brown", "album", 9, "bitRate");
 
-	    VinylTrack d10 = new VinylTrack("Bohemian Rhapsody", "5 minutes 55 seconds", "Queen", "A Night at the Opera", 1975, "RPM");
-	    DigitalTrack d11  = new DigitalTrack("Bohemian Rhapsody", "5 minutes 54 secods", "Queen", "A Night at the Opera", 2011, "bitRate");
+	        VinylTrack d10 = new VinylTrack("Bohemian Rhapsody", "5 minutes 55 seconds", "Queen", "A Night at the Opera", 1975, "RPM");
+	        DigitalTrack d11  = new DigitalTrack("Bohemian Rhapsody", "5 minutes 54 secods", "Queen", "A Night at the Opera", 2011, "bitRate");
 
             ArtistBucket ab = new ArtistBucket();
             TitleBucket tb = new TitleBucket();
